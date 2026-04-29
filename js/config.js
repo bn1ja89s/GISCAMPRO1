@@ -31,10 +31,10 @@ export const appConfig = {
     downloadOnStart: false,
     timeoutMs: 12000,
     backend: {
-      baseUrl: "http://34.237.136.123:3001",
+      baseUrl: "https://backend-pwa-production.up.railway.app",
       endpoints: {
-        projects: "http://34.237.136.123:3001/proyectos",
-        collars: "http://34.237.136.123:3001/collars",
+        projects: "https://backend-pwa-production.up.railway.app/proyectos",
+        collars: "https://backend-pwa-production.up.railway.app/collars",
       },
     },
     arcgis: {
@@ -117,9 +117,9 @@ export const appConfig = {
   auth: {
     enabled: true,
     provider: "backend-jwt",
-    loginUrl: "http://34.237.136.123:3001/auth/login",
+    loginUrl: "https://backend-pwa-production.up.railway.app/auth/login",
     refreshUrl: "",
-    logoutUrl: "http://34.237.136.123:3001/auth/logout",
+    logoutUrl: "https://backend-pwa-production.up.railway.app/auth/logout",
   },
   map: {
     basemap: "streets-navigation-vector",

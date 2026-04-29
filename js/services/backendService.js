@@ -1,6 +1,6 @@
 import { addRecord, deleteRecord, getAllRecords, getRecordByIndex, getRecordByKey, putRecord } from "../db/indexeddb.js";
 
-export const API = "http://34.237.136.123:3001";
+export const API = "https://backend-pwa-production.up.railway.app";
 
 let currentUser = normalizeUser(readStoredUser());
 const authListeners = new Set();
